@@ -6,14 +6,14 @@ package com.mycompany.animals;
 public class Main {
     
     public static void main(String [] args){
-        Voice animals[] = new Voice[5];
-        animals[0] = new Cat();
-        animals[1] = new Cow();
-        animals[2] = new Cat();
-        animals[3] = new Dog();
-        animals[4] = new Dog();
+        Voice voices[] = new Voice[5];
+        voices[0] = new Cat();
+        voices[1] = new Cow();
+        voices[2] = new Cat();
+        voices[3] = new Dog();
+        voices[4] = new Dog();
         
-        for (Voice d: animals){
+        for (Voice d: voices){
             d.voice();
         }
     }
