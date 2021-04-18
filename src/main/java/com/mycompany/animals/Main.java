@@ -1,7 +1,7 @@
 package com.mycompany.animals;
 
 /**
- *
+ * применяем метод voice к вектору из животных
  */
 public class Main {
     
